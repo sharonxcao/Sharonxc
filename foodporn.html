@@ -136,126 +136,13 @@
     </header>
     <!-- ****** Header Area End ****** -->
 
-    <!-- ****** Categories Area Start ****** -->
-    <section class="categories_area clearfix" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="single_catagory wow fadeInUp" data-wow-delay=".3s">
-                        <img src="img/catagory-img/1.jpg" alt="">
-                        <div class="catagory-title">
-                            <a href="#">
-                                <h5>Food</h5>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="single_catagory wow fadeInUp" data-wow-delay=".6s">
-                        <img src="img/catagory-img/2.jpg" alt="">
-                        <div class="catagory-title">
-                            <a href="#">
-                                <h5>Cooking</h5>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="single_catagory wow fadeInUp" data-wow-delay=".9s">
-                        <img src="img/catagory-img/3.jpg" alt="">
-                        <div class="catagory-title">
-                            <a href="#">
-                                <h5>Life Style</h5>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- ****** Categories Area End ****** -->
-
-    <!-- ****** Welcome Post Area Start ****** -->
-    <section class="welcome-post-sliders owl-carousel">
-
-        <!-- Single Slide -->
-        <div class="welcome-single-slide">
-            <!-- Post Thumb -->
-            <img src="img/bg-img/slide-1.jpg" alt="">
-            <!-- Overlay Text -->
-            <div class="project_title">
-                <a href="#">
-                    <h5>About Me</h5>
-
-                </a>
-            </div>
-        </div>
-
-        <!-- Single Slide -->
-        <div class="welcome-single-slide">
-            <!-- Post Thumb -->
-            <img src="img/bg-img/slide-2.jpg" alt="">
-            <!-- Overlay Text -->
-            <div class="project_title">
-                <a href="foodporn.html">
-                    <h5>Food Porn</h5>
-                    This is my flickr.
-                </a>
-            </div>
-        </div>
-
-        <!-- Single Slide -->
-        <div class="welcome-single-slide">
-            <!-- Post Thumb -->
-            <img src="img/bg-img/slide-3.jpg" alt="">
-            <!-- Overlay Text -->
-            <div class="project_title">
-                <div class="post-date-commnents d-flex">
-                </div>
-                <a href="#">
-                    <h5>Travel Shit</h5>
-                    I got mad plans.
-                </a>
-            </div>
-        </div>
-
-        <!-- Single Slide -->
-        <div class="welcome-single-slide">
-            <!-- Post Thumb -->
-            <img src="img/bg-img/slide-4.jpg" alt="">
-            <!-- Overlay Text -->
-            <div class="project_title">
-                <a href="#">
-                    <h5>Occasion.ly</h5>
-                    Curates a food itinerary for you based on your criteria.
-                </a>
-            </div>
-        </div>
-
-        <!-- Single Slide -->
-        <div class="welcome-single-slide">
-            <!-- Post Thumb -->
-            <img src="img/bg-img/slide-4.jpg" alt="">
-            <!-- Overlay Text -->
-            <div class="project_title">
-                <a href="#">
-                    <h5>Miso_Famous</h5>
-                    The cat who changed my life.
-                </a>
-            </div>
-        </div>
-
-    </section>
-    <!-- ****** Welcome Area End ****** -->
-    <!-- ****** Blog Area Start ****** -->
-   <!-- <section class="blog_area section_padding_0_80">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-12 col-lg-8">
-                    <div class="row">
-
-                        <-- Single Post goes here -->
-
+   <!-- Flickr Embed -->
+   <div id="flickrembed_24"></div>
+   <div style="position:absolute; top:-70px; display:block; text-align:center; z-index:-1;">
+     <a rel="nofollow" href="https://www.onecompare.com">https://www.onecompare.com</a></div>
+       <script src='https://flickrembed.com/embed_v2.js.rand.php?container=flickrembed_24&source=flickr&layout=responsive&input=149259152@N05&sort=3&by=user&theme=tiles_nested&scale=fill&speed=2000&limit=50&skin=default-light&autoplay=true'></script>
+       <script type="text/javascript">function showpics(){var a=$("#box").val();$.getJSON("http://api.flickr.com/services/feeds/photos_public.gne?tags="+a+"&tagmode=any&format=json&jsoncallback=?",function(a){$("#images").hide().html(a).fadeIn("fast"),$.each(a.items,function(a,e){$("<img/>").attr("src",e.media.m).appendTo("#images")})})}</script>
+   <!-- Flickr Embed End -->
 
     <!-- ****** Footer Social Icon Area Start ****** -->
     <div class="social_icon_area clearfix">
@@ -296,8 +183,7 @@
                 <div class="col-12">
                     <!-- Copywrite Text -->
                     <div class="copy_right_text text-center">
-                    <p><a href="https://colorlib.com" target="_blank" >Colorlib</a></p>
-
+                        <p><a href="https://colorlib.com" target="_blank">Colorlib</a></p>
                     </div>
                 </div>
             </div>
