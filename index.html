@@ -117,14 +117,11 @@
    <div style="position:absolute; top:-70px; display:block; text-align:center; z-index:-1;"></div>
        <script src='https://flickrembed.com/embed_v2.js.rand.php?container=flickrembed_24&source=flickr&layout=responsive&input=149259152@N05&sort=3&by=user&theme=tiles_nested&scale=fill&speed=2000&limit=50&skin=default-light&autoplay=true'></script>
        <script type="text/javascript">function showpics(){var a=$("#box").val();$.getJSON("http://api.flickr.com/services/feeds/photos_public.gne?tags="+a+"&tagmode=any&format=json&jsoncallback=?",function(a){$("#images").hide().html(a).fadeIn("fast"),$.each(a.items,function(a,e){$("<img/>").attr("src",e.media.m).appendTo("#images")})})}</script>
-  
    <!-- Flickr Embed End -->
-  <div class="social_icon_area clearfix">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="footer-social-area d-flex">
-</div></div></div></div></div>
+   <!-- Active JS -->
+<div class ="footer-social-area d-flex">
+    <script src="js/active.js"></script></div>
+
     <!-- Jquery-2.2.4 js -->
     <script src="js/jquery/jquery-2.2.4.min.js"></script>
     <!-- Popper js -->
@@ -133,6 +130,5 @@
     <script src="js/bootstrap/bootstrap.min.js"></script>
     <!-- All Plugins JS -->
     <script src="js/others/plugins.js"></script>
-    <!-- Active JS -->
-    <script src="js/active.js"></script>
+
 </body>
