@@ -27,7 +27,6 @@
         <div class="yummy-load"></div>
     </div>
 
-
     <!-- ****** Top Header Area Start ****** -->
     <div class="top_header_area">
         <div class="container">
@@ -35,14 +34,12 @@
                 <div class="col-5 col-sm-6">
                     <!--  Top Social bar start -->
                     <div class="top_social_bar">
-                        <a href=https://www.instagram.com/sxcsharon><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                         <a href="https://www.instagram.com/miso_famous"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        <a href=https://www.instagram.com/sxcsharon>Me <i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        <a href="https://www.instagram.com/miso_famous">Miso <i class="fa fa-instagram" aria-hidden="true"></i></a>
                         <a href="https://www.linkedin.com/in/sharonxcao"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                       
-                
                     </div>
                 </div>
-                 <!--  Login Register Area -->
+                <!--  Login Register Area -->
                 <div class="col-7 col-sm-6">
                     <div class="signup-search-area d-flex align-items-center justify-content-end">
                         <div class="login_register_area d-flex">
@@ -87,10 +84,25 @@
                         <div class="collapse navbar-collapse justify-content-center" id="yummyfood-nav">
                             <ul class="navbar-nav" id="yummy-nav">
                                 <li class="nav-item active">
-                                    <a class="nav-link">Food Porn <span class="sr-only">(current)</span></a></li>
-                                    <a class="nav-link">Travel <span class="sr-only"></span></a>
-                                    <a class="nav-link">Where Should I Eat? <span class="sr-only"></span></a>
+                                    <a class="nav-link" href=""> Food Porn <span class="sr-only">(current)</span></a>
                                 </li>
+                                <li class="nav-item dropdown">
+                                   <!-- <a class="nav-link dropdown-toggle" href="#" id="yummyDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages</a>
+                                    <div class="dropdown-menu" aria-labelledby="yummyDropdown">
+                                        <a class="dropdown-item" href="index.html">Home</a>
+                                                                            </div> -->
+                                </li>
+                                <!--
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Travel Shit</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="archive.html">Where Should I Go?</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">About & Contact</a>
+                                </li> -->
+                                
                             </ul>
                         </div>
                     </nav>
@@ -102,11 +114,12 @@
 
    <!-- Flickr Embed -->
    <div id="flickrembed_24"></div>
-   <div style="position:absolute; top:-70px; display:block; text-align:center; z-index:-1;">
-     <a rel="nofollow" href="https://www.onecompare.com">https://www.onecompare.com</a></div>
+   <div style="position:absolute; top:-70px; display:block; text-align:center; z-index:-1;"></div>
        <script src='https://flickrembed.com/embed_v2.js.rand.php?container=flickrembed_24&source=flickr&layout=responsive&input=149259152@N05&sort=3&by=user&theme=tiles_nested&scale=fill&speed=2000&limit=50&skin=default-light&autoplay=true'></script>
        <script type="text/javascript">function showpics(){var a=$("#box").val();$.getJSON("http://api.flickr.com/services/feeds/photos_public.gne?tags="+a+"&tagmode=any&format=json&jsoncallback=?",function(a){$("#images").hide().html(a).fadeIn("fast"),$.each(a.items,function(a,e){$("<img/>").attr("src",e.media.m).appendTo("#images")})})}</script>
    <!-- Flickr Embed End -->
+   <!-- Active JS -->
+    <script src="js/active.js"></script></div>
 
     <!-- Jquery-2.2.4 js -->
     <script src="js/jquery/jquery-2.2.4.min.js"></script>
@@ -116,6 +129,5 @@
     <script src="js/bootstrap/bootstrap.min.js"></script>
     <!-- All Plugins JS -->
     <script src="js/others/plugins.js"></script>
-    <!-- Active JS -->
-    <script src="js/active.js"></script>
+
 </body>
